@@ -1,0 +1,6 @@
+﻿  Student.cpp
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\09.03.2019 - saturday\09.03 - exercises\universitysystem\student.cpp(47): warning C4244: '+=': conversion from 'float' to 'int', possible loss of data
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\09.03.2019 - saturday\09.03 - exercises\universitysystem\student.cpp(50): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  UniversitySystem.cpp
+  Generating Code...
+  UniversitySystem.vcxproj -> D:\Documents\Learning\Object Oriented Programming\OOP Exercises\Object-Oriented-Programing-Course\09.03.2019 - Saturday\09.03 - Exercises\Debug\UniversitySystem.exe
