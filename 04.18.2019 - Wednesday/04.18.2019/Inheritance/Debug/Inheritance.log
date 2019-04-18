@@ -1,0 +1,6 @@
+﻿  Building.cpp
+  House.cpp
+  Generating Code...
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\04.18.2019 - wednesday\04.18.2019\inheritance\house.cpp(7): error C4716: 'House::operator=': must return a value
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\04.18.2019 - wednesday\04.18.2019\inheritance\house.cpp(29): error C4716: 'operator>>': must return a value
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\04.18.2019 - wednesday\04.18.2019\inheritance\building.cpp(67): error C4716: 'Building::operator=': must return a value
