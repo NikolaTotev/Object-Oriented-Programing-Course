@@ -1,4 +1,5 @@
 #include "House.h"
+#include "../../../../../Homework_Assignments/OOP_Homework_Assignments/Homework_2/Exercise_3/my_string.h"
 House& House::operator=(const House& other)
 {
 	Building::operator=(other);
