@@ -1,4 +1,6 @@
 #pragma once
+#include <cstring>
+
 class Storage
 {
 public:
@@ -7,52 +9,70 @@ public:
 		return hashCode;
 	}
 
-	void set_hash_code(char* hash_code)
+	void set_hash_code(const char* hash_code)
 	{
-		hashCode = hash_code;
+		int len = strlen(hash_code);
+		hashCode = new char[len];
+		for (int i = 0; i < len; ++i)
+		{
+			hashCode[i] = hash_code[i];
+		}
+		hashCode[len] = 0;
 	}
 
+	//=============================================
+	//DEVICE NAME
 	const char* device_name() const
 	{
 		return deviceName;
 	}
 
-	void set_device_name(char* device_name)
+	void set_device_name(const char* device_name)
 	{
-		deviceName = device_name;
-	}
+		int len = strlen(device_name);
+		deviceName = new char[len];
+		for (int i = 0; i < len; ++i)
+		{
+			deviceName[i] = device_name[i];
+		}
+		deviceName[len] = 0;
 
-	int max_capacity() const
+	}
+	//=============================================
+	//MAX CAPACITY
+	float max_capacity() const
 	{
 		return maxCapacity;
 	}
 
-	void set_max_capacity(int max_capacity)
+	void set_max_capacity(float max_capacity)
 	{
 		maxCapacity = max_capacity;
 	}
 
-	int used_capacity() const
+	//=============================================
+	//USED CAPACITY
+	float used_capacity() const
 	{
 		return usedCapacity;
 	}
 
-	void set_used_capacity(int used_capacity)
+	void set_used_capacity(float used_capacity)
 	{
 		usedCapacity = used_capacity;
 	}
-
+	//=============================================
 private:
-	const char* hashCode;
-	const char* deviceName;
-	int maxCapacity;
-	int usedCapacity;
-	
+	char* hashCode;
+	char* deviceName;
+	float maxCapacity;
+	float usedCapacity;
+
 public:
 	Storage();
-
-	Storage(const char* hash_code, const char* device_name, int max_capacity, int used_capacity);
-
+	Storage(const char* hash_code, const char* device_name, float max_capacity, float used_capacity);
+	Storage(const Storage& other);
+	bool operator==(const Storage& rhs);
 	~Storage();
 };
 

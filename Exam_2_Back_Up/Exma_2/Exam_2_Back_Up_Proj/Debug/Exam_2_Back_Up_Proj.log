@@ -1,2 +1,6 @@
 ﻿  Exam_2_Back_Up_Proj.cpp
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\exam_2_back_up\exma_2\exam_2_back_up_proj\exam_2_back_up_proj.cpp(8): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  OnlineStorage.cpp
+d:\documents\learning\object oriented programming\oop exercises\object-oriented-programing-course\exam_2_back_up\exma_2\exam_2_back_up_proj\onlinestorage.cpp(36): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
+  Generating Code...
   Exam_2_Back_Up_Proj.vcxproj -> D:\Documents\Learning\Object Oriented Programming\OOP Exercises\Object-Oriented-Programing-Course\Exam_2_Back_Up\Exma_2\Debug\Exam_2_Back_Up_Proj.exe
